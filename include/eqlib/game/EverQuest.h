@@ -625,6 +625,9 @@ inline const char* GetServerShortName() { return pEverQuestInfo->WorldServerShor
 struct MQMouseInfo
 {
 	int X = 0;
+	// The September 2026 client separated the mouse coordinates. Keep the
+	// public X/Y field interface while matching their actual in-process layout.
+	uint8_t Unknown0x0004[0x1040] = {};
 	int Y = 0;
 	int SpeedX = 0;
 	int SpeedY = 0;
