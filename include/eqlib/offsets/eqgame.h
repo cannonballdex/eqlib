@@ -163,7 +163,7 @@
 #define __WndProc_x                                                0x1403582B0
 #define CMemoryMappedFile__SetFile_x                               0x14081B1D0
 #define DrawNetStatus_x                                            0x1402E3D30
-#define Util__FastTime_x                                           0x1405AFD10
+#define Util__FastTime_x                                           0x1405AFD00
 #define __eq_delete_x                                              0x1406E6658
 #define __eq_new_x                                                 0x1406E6A70
 #define __CopyLayout_x                                             0x1402D0B80
