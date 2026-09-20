@@ -141,7 +141,7 @@
 #define __CreateCascadeMenuItems_x                                 0x14019B210
 #define __decompress_block_x                                       0x1405ABA30
 #define __DoesFileExist_x                                          0x1405B4420
-#define __EQGetTime_x                                              0x1405B0970
+#define __EQGetTime_x                                              0x1405B08E0
 #define __ExecuteCmd_x                                             0x140229FB0
 #define __FixHeading_x                                             0x14066D330
 #define __FlushDxKeyboard_x                                        0x140359B60
