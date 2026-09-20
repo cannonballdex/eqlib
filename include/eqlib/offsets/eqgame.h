@@ -143,15 +143,15 @@
 #define __DoesFileExist_x                                          0x1405B4420
 #define __EQGetTime_x                                              0x1405B0970
 #define __ExecuteCmd_x                                             0x140229FB0
-#define __FixHeading_x                                             0x14066DBB0
+#define __FixHeading_x                                             0x14066D330
 #define __FlushDxKeyboard_x                                        0x140359B60
 #define __get_bearing_x                                            0x14025FAB0
 #define __get_melee_range_x                                        0x14025FBA0
 #define __GetAnimationCache_x                                      0x1403E06B0
 #define __GetGaugeValueFromEQ_x                                    0x140524AD0
 #define __GetLabelFromEQ_x                                         0x1405260C0
-#define __GetXTargetType_x                                         0x1406700A0   // ExtendedTargetList::ExtendedTargetRoleName
-#define __HeadingDiff_x                                            0x14066DC30
+#define __GetXTargetType_x                                         0x14066F820   // ExtendedTargetList::ExtendedTargetRoleName
+#define __HeadingDiff_x                                            0x14066D3B0
 #define __HelpPath_x                                               0x140F30F90   // Why?
 #define __NewUIINI_x                                               0x140531B10   // Why?
 #define __ProcessDeviceEvents_x                                    0x1402A1FC0
@@ -161,7 +161,7 @@
 #define __SaveColors_x                                             0x1401AB3E0
 #define __STMLToText_x                                             0x1405C4CB0
 #define __WndProc_x                                                0x1403582B0
-#define CMemoryMappedFile__SetFile_x                               0x14081B1D0
+#define CMemoryMappedFile__SetFile_x                               0x14081A950
 #define DrawNetStatus_x                                            0x1402E3D30
 #define Util__FastTime_x                                           0x1405AFD00
 #define __eq_delete_x                                              0x1406E6658
@@ -285,8 +285,8 @@
 #define CContextMenuManager__CreateDefaultMenu_x                   0x1403D7F60
 
 // CChatService
-#define CChatService__GetNumberOfFriends_x                         0x1406C1BE0
-#define CChatService__GetFriendName_x                              0x1406C1BF0
+#define CChatService__GetNumberOfFriends_x                         0x1406C1360
+#define CChatService__GetFriendName_x                              0x1406C1370
 
 // CComboWnd
 #define CComboWnd__DeleteAll_x                                     0x1405D5370
@@ -490,8 +490,8 @@
 #define CMerchantWnd__PurchasePageHandler__UpdateList_x            0x1404AA8D0
 
 // CPacketScrambler
-#define CPacketScrambler__ntoh_x                                   0x14069E450
-#define CPacketScrambler__hton_x                                   0x14069E440
+#define CPacketScrambler__ntoh_x                                   0x14069DBD0
+#define CPacketScrambler__hton_x                                   0x14069DBC0
 
 // CSidlManagerBase
 #define CSidlManagerBase__FindButtonDrawTemplate_x                 0x1406026B0
@@ -644,7 +644,7 @@
 #define CDBStr__GetString_x                                        0x140198490
 
 // ProfileManager
-#define ProfileManager__GetCurrentProfile_x                        0x1406A8490
+#define ProfileManager__GetCurrentProfile_x                        0x1406A7C10
 
 // CCharacterListWnd
 #define CCharacterListWnd__SelectCharacter_x                       0x1400D8F90
@@ -653,13 +653,13 @@
 #define CCharacterListWnd__UpdateList_x                            0x1400D9CD0
 
 // ItemClient
-#define ItemBase__CanGemFitInSlot_x                                0x140674D50
-#define ItemBase__CreateItemTagString_x                            0x1406757E0
-#define ItemBase__GetImageNum_x                                    0x140677F30
-#define ItemBase__GetItemValue_x                                   0x140679AF0
-#define ItemBase__IsEmpty_x                                        0x14067B880
-#define ItemBase__IsKeyRingItem_x                                  0x14067BFF0
-#define ItemBase__ValueSellMerchant_x                              0x140680290
+#define ItemBase__CanGemFitInSlot_x                                0x1406744D0
+#define ItemBase__CreateItemTagString_x                            0x140674F60
+#define ItemBase__GetImageNum_x                                    0x1406776B0
+#define ItemBase__GetItemValue_x                                   0x140679270
+#define ItemBase__IsEmpty_x                                        0x14067B000
+#define ItemBase__IsKeyRingItem_x                                  0x14067B790
+#define ItemBase__ValueSellMerchant_x                              0x14067FA10
 #define ItemClient__CanDrop_x                                      0x1402C8A30
 #define ItemClient__CanGoInBag_x                                   0x1402C8B70
 #define ItemClient__CreateItemClient_x                             0x1402C8E00
@@ -670,11 +670,11 @@
 #define EQ_LoadingS__Array_x                                       0x140D782B0
 
 // PcClient
-#define PcBase__GetAlternateAbilityId_x                            0x14068C410
-#define PcBase__GetCombatAbility_x                                 0x14068CCA0
-#define PcBase__GetCombatAbilityTimer_x                            0x14068CD80
-#define PcBase__GetItemContainedRealEstateIds_x                    0x14068D5A0
-#define PcBase__GetNonArchivedOwnedRealEstates_x                   0x14068E070
+#define PcBase__GetAlternateAbilityId_x                            0x14068BB90
+#define PcBase__GetCombatAbility_x                                 0x14068C420
+#define PcBase__GetCombatAbilityTimer_x                            0x14068C500
+#define PcBase__GetItemContainedRealEstateIds_x                    0x14068CD20
+#define PcBase__GetNonArchivedOwnedRealEstates_x                   0x14068D7F0
 #define PcClient__AlertInventoryChanged_x                          0x1402EC030
 #define PcClient__GetConLevel_x                                    0x1402EC780  // PcClient::ConsiderTarget
 #define PcClient__GetMeleeSpellFromSkillIndex_x                    0x1402EEE80
@@ -729,10 +729,10 @@
 #define KeypressHandler__SaveKeymapping_x                          0x1402CDE80  // FileKeymappingSave
 
 // PlayerPointManager
-#define PlayerPointManager__GetAltCurrency_x                       0x1406A5F90  // PlayerPointManager::GetPoints
+#define PlayerPointManager__GetAltCurrency_x                       0x1406A5710  // PlayerPointManager::GetPoints
 
 // StringTable
-#define StringTable__getString_x                                   0x1406A0560
+#define StringTable__getString_x                                   0x14069FCE0
 
 // PcZoneClient
 #define PcZoneClient__doCombatAbility_x                            0x1402F60F0  // PcZoneClient::ActivateMeleeCombatAbility
@@ -806,8 +806,8 @@
 #define FreeTargetTracker__CastSpell_x                             0x1402BE1C0
 
 // CharacterBase
-#define CharacterBase__GetItemByGlobalIndex_x                      0x1406BF430
-#define CharacterBase__GetItemByGlobalIndex1_x                     0x1406BF4B0
+#define CharacterBase__GetItemByGlobalIndex_x                      0x1406BEBB0
+#define CharacterBase__GetItemByGlobalIndex1_x                     0x1406BEC30
 #define CharacterBase__IsExpansionFlag_x                           0x14020D4A0
 
 // CCastSpellWnd
@@ -826,7 +826,7 @@
 #define SpellManager__GetSpellByGroupAndRank_x                     0x140349A80
 
 // CCollisionInfoTargetVisibility
-#define CCollisionInfoTargetVisibility__CCollisionInfoTargetVisibility_x 0x140670480
+#define CCollisionInfoTargetVisibility__CCollisionInfoTargetVisibility_x 0x14066FC00
 
 // CLargeDialogWnd
 #define CLargeDialogWnd__Open_x                                    0x14045E340
@@ -862,16 +862,16 @@
 #define CColorPickerWnd__Open_x                                    0x1403D0AD0
 
 // CDistillerInfo
-#define CDistillerInfo__GetIDFromRecordNum_x                       0x1406C3770  // Rename..?
-#define CDistillerInfo__Instance_x                                 0x1406C3660  // ItemDistillerManager__GetInstance
+#define CDistillerInfo__GetIDFromRecordNum_x                       0x1406C2EF0  // Rename..?
+#define CDistillerInfo__Instance_x                                 0x1406C2DE0  // ItemDistillerManager__GetInstance
 
 // CGroupWnd
 #define CGroupWnd__WndNotification_x                               0x1403FAE90
 #define CGroupWnd__UpdateDisplay_x                                 0x1403FA020
 
 // ItemBase
-#define ItemBase__IsLore_x                                         0x14067C150
-#define ItemBase__IsLoreEquipped_x                                 0x14067C1D0
+#define ItemBase__IsLore_x                                         0x14067B8D0
+#define ItemBase__IsLoreEquipped_x                                 0x14067B960
 
 #define MultipleItemMoveManager__ProcessMove_x                     0x1402E1B60
 
@@ -918,7 +918,7 @@
 #define AchievementManager__Instance_x                             0x140093FE0
 
 // FreeToPlayClient
-#define FreeToPlayClient__Instance_x                               0x1406A9020
+#define FreeToPlayClient__Instance_x                               0x1406A87A0
 #define FreeToPlayClient__RestrictionInfo_x                        0x140B07270
 
 // UdpConnection
